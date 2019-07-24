@@ -20,11 +20,20 @@ body, html {
   width: 100%;
   max-width: 400px;
 }
+.container3 {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
 .container img {
   width: 100%;
   height: auto;
 }
 .container2 img {
+  width: 100%;
+  height: auto;
+}
+.container3 img {
   width: 100%;
   height: auto;
 }
@@ -61,14 +70,30 @@ body, html {
   border-radius: 5px;
   text-align: center;
 }
-
+.btn3 {
+  position: absolute;
+  top: 80%;
+  left: 84%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
 .container .btn:hover {
   background-color: black;
 }
 .container2 .btn2:hover {
   background-color: black;
 }
-
+.container3 .btn:hover {
+  background-color: black;
+}
 .bg {
   /* First Home image used */
   background-image: url("https://bitcoinist.com/wp-content/uploads/2019/06/shutterstock_1114894709.png");
@@ -151,6 +176,8 @@ body, html {
   <button class="btn">Button</button>
 <!-- <div class="container2"> -->
   <button class="btn2">Button</button>
+
+  <button class="btn3">Button</button>
 </div>
 
 
