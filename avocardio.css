@@ -10,6 +10,12 @@ h1 {
   padding-top: 70px;
 >>>>>>> 7edfd609d0ee3709e223bb2cc4a7619f2e438435
 }
+h2 {
+  text align: center
+}
+h3 {
+  text-align:left
+}
 
 /* p {
   font-family: "Comic Sans MS";
