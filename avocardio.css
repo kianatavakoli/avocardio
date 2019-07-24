@@ -6,6 +6,12 @@ h1 {
   padding-top: 80px;
   font-family: "Avant Garde";
 }
+h2 {
+  text align: center
+}
+h3 {
+  text-align:left
+}
 
 /* p {
   font-family: "Comic Sans MS";
