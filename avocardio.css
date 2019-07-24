@@ -3,8 +3,12 @@ h1 {
   color:white;
   text-align: center;
   font-size:120px;
+<<<<<<< HEAD
   padding-top: 80px;
   font-family: "Avant Garde";
+=======
+  padding-top: 70px;
+>>>>>>> 7edfd609d0ee3709e223bb2cc4a7619f2e438435
 }
 
 /* p {
