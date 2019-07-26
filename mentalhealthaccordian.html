@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.accordion {
+  background-color: #eee;
+  color: #446;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+</style>
+</head>
+<body>
+
+<h2>Accordion</h2>
+
+<button class="accordion">Physical</button>
+<div class="panel">
+  <p> <h3> ~~ Follow the workouts you previously constructed regularly and in a routine for the best results. </h3>
+   <h3> ~~ Stay Hydrated! To calculate how much water you need to consume to stay hydrated and healthy at your own rate. </h3>
+   <h3> ~~ Eat more vegetables and cut back on sugars (unless they are fruit) to help your workouts to take full effect. Sugars make your body unable to reach its fruitful potential. See what I did there:)</h3>
+   <h3> ~~If workouts are too intensive for you as you start out, try replacing them with stretches you enjoy instead. </h3>
+   <h3> ~~ Get into a comfortable sleep routine to help your body fall into a regular circadian rhythm.</h3>
+</div>
+
+<button class="accordion">Mental</button>
+<div class="panel">
+  <p> <h3> ~~ To boost brain power, eat a piece of dark chocolate or two for a fun way of improving your diet! </h3>
+   <h3> ~~ If you are feeling extra stressed, stop what you are doing, print out some adult coloring pages and just color to calm yourself down and distract your mind. </h3>
+   <h3> ~~ Looking at huge goals can be overwhelming. Instead break down these tasks into jobs that you are capable of completing a day.</h3>
+   <h3> ~~If you have trouble waking up super early, try to instead wake up only 10-15 minutes earlier to increase your energy and productivity for the day! </h3>
+   <h3> ~~ Even though you might thrive in social media, take a break from it completely for a day, your mind will be reset and easier to understand.</h3></p>
+</div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+
+</body>
+</html>
