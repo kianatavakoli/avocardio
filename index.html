@@ -5,15 +5,8 @@
 <div><center><h1>AVOCARDIO</h1></center></div>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-<<<<<<< HEAD
 
 
-=======
-#map{
-  height:500px;
-  width: 50%;
-}
->>>>>>> e2af755c6d595e97c83fdb1d1295ff8b1bbe30eb
 .container {
   position: relative;
   text-align: center;
@@ -45,128 +38,27 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
 }
-/* .bg2 {
+ .bg2 {
   /* The image used */
   background-image: url("https://www.solidbackgrounds.com/images/950x350/950x350-baby-blue-solid-color-background.jpg");
 
   /* Full height */
-  height: 40%;
+  height: 8%;
 
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-} */
+}
 
 </style>
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,
-initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<title>Map</title>
-
 </head>
 <body>
   <div class="centered">About</div>
 <div class="bg"></div>
 <p>
-<!-- <div class="bg2"></div> -->
-<h1>map</h1>
-<div id="map"></div>
-<script>
-  function initMap(){
-    // map options
-    var options = {
-      zoom:9,
-      center: {lat:37.468319, lng:-122.143936}
-    }
-    // New map
-    var map = new google.maps.Map(document.getElementById('map'), options);
+  <h3> Smoothie Generator </h3>
+ <div class="bg2"></div>
 
-    // Array
-    var markers = [
-      {
-        coords: {lat:37.443424, lng:-122.161741},
-        content:'<h4>YogaSource Palo Alto</h4>'
-      },
-      {
-        coords: {lat:37.234002, lng:-121.964377},
-        content:'<h4>YogaSource Los Gatos</h4>'
-      },
-      {
-        coords: {lat:37.785884, lng:-122.401051},
-        content:'<h4>SF MOMA</h4>'
-      },
-      {
-        coords: {lat:37.444407, lng:-122.138925},
-        content:'<h4>Palo Alto Art Center</h4>'
-      },
-      // more
-      {
-        coords: {lat:37.467118, lng: -122.446934},
-        content:'<h4>Half Moon Bay Beach</h4>'
-      },
-      {
-        coords: {lat:37.769204, lng:-122.486199},
-        content:'<h4>Golden Gate Park</h4>'
-      },
-      {
-        coords: {lat:37.802077, lng: -122.448315},
-        content:'<h4>Palace of Fine Art</h4>'
-      },
-      {
-        coords: {lat:37.478571, lng: -122.291691},
-        content:'<h4>Pulgas Ridge Preserve</h4>'
-      }
-
-    ];
-
-    // :oop through markers
-    for(var i = 0; i < markers.length; i++){
-      addMarker(markers[i]);
-      addMarker({
-        coords: {lat:37.443424, lng:-122.161741},
-        content:'<h4>YogaSource Palo Alto</h4>'
-      });
-    }
-    addMarker({
-      coords: {lat:37.443424, lng:-122.161741},
-      content:'<h4>YogaSource Palo Alto</h4>'
-    });
-    // addMarker({
-    //   coords: {lat:37.234002, lng:-121.964377},
-    //   content:'<h4>YogaSource Los Gatos</h4>'
-    // });
-    // addMarker({
-    //   coords: {lat:37.785884, lng:-122.401051},
-    //   content:'<h4>SF MOMA</h4>'
-    // });
-    // addMarker({
-    //   coords: {lat:37.444407, lng:-122.138925},
-    //   content:'<h4>Palo Alto Art Center</h4>'
-    // });
-    // Add Marker function
-    function addMarker(props){
-      var marker = new google.maps.Marker({
-        position:props.coords,
-        map:map
-      });
-// check content
-      if(props.content){
-        var infoWindow = new google.maps.InfoWindow({
-          content:props.content
-        });
-
-        marker.addListener('click', function(){
-          infoWindow.open(map, marker);
-        });
-      }
-    }
-  }
-</script>
-<script async defer
-src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhuSNCMKXq90q3pQWNk7IcvlTQTF9qiVY&callback=initMap">
-</script>
 </body>
 </html>
