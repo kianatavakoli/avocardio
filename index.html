@@ -151,6 +151,49 @@ for (i = 0; i < acc.length; i++) {
 initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <title>AVOCARDIO</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif; Geneva
+}
+
+/* Float four columns side by side */
+.column4 {
+  float: right;
+  width: 50%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column4 {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+</style>
 
 </head>
 <body>
@@ -265,7 +308,7 @@ body {
   </div>
 </div>
 
-<style>
+<!-- <style>
 .column {
   float: left;
   width: 29%;
@@ -278,7 +321,7 @@ body {
   display: table;
   clear: both;
 }
-</style>
+</style> -->
 
 <p><div><h2><b><center>WORKOUTS</center></b></h2></div></p>
 <p><h3><b><center>Excercise is an essential and impactful practice that can be fun and use creativity! But if your stuck on what to do, take a look at different ideas below!</b></p></h3></center>
@@ -319,8 +362,30 @@ clear: both;
 }
 </style>
 
+<h2>Responsive Column Cards</h2>
+<p>Resize the browser window to see the effect.</p>
+
+  <div class="column4">
+    <div class="card">
+      <h3>Card 4</h3>
+      <p>Some text</p>
+      <p>Some text</p>
+      <p>Some text</p>
+       <p>Some text</p>
+      <p>Some text</p>
+      <p>Some text</p>
+      <p>Some text</p>
+      <p>Some text</p>
+       <p>Some text</p>
+      <p>Some text</p>
+      <p>Some text</p>
+
+    </div>
+  </div>
+</div>
+
 <!-- ============================================================== -->
- <h2><center>MAP</center></h2>
+ <!-- <h2><center>MAP</center></h2> -->
  <div id="map"></div>
  <script>
    function initMap(){
