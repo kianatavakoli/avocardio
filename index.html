@@ -2,149 +2,149 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style>
-.bg{
-  /* First Home image used */
-  background-image: url("option5.pdf");
-
-  /* Full height */
-  height: 100%;
-
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-.button{
-  background-color: blue; /* Green */
-}
-.centered {
-  position: absolute;
-  top: 20%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}}
-</style>
-
-  <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
-  .accordion {
-    background-color: #9ACD32;
-    color: #444;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 15px;
-    transition: 0.9s;
-  }
-  .button2 {background-color: #9ACD32;} /* Blue */
-  .active, .accordion:hover {
-    background-color: #9ACD32;
-  }
+  .bg{
+    /* First Home image used */
+    background-image: url("option5.pdf");
 
-  .panel {
-    padding: 0 18px;
-    display: none;
-    background-color: light green ;
-    overflow: hidden;
-  }
+    /* Full height */
+    height: 100%;
+
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .button{
+      background-color: blue; /* Green */
+    }
+    .centered {
+      position: absolute;
+      top: 20%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      }}
+    </style>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    .accordion {
+      background-color: #9ACD32;
+      color: #444;
+      cursor: pointer;
+      padding: 18px;
+      width: 100%;
+      border: none;
+      text-align: left;
+      outline: none;
+      font-size: 15px;
+      transition: 0.9s;
+    }
+    .button2 {background-color: #9ACD32;} /* Blue */
+    .active, .accordion:hover {
+      background-color: #9ACD32;
+    }
+
+    .panel {
+      padding: 0 18px;
+      display: none;
+      background-color: light green ;
+      overflow: hidden;
+    }
+    </style>
+
+    <!-- <div><center><h1>AVOCARDIO</h1></center></div> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+
+
+    .container {
+      position: relative;
+      text-align: center;
+      color: white;
+    }
+
+    .centered {
+      position: absolute;
+      top: 70%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+
+    body, html {
+      height: 100%;
+      margin: 0;
+    }
+
+    .page-title {
+      position: absolute;
+      top: -130px;
+      //left: 600px;
+      font-size: 208px;
+
+
+    }
+    .bg {
+      /* The image used */
+      background-image: url("option5.pdf");
+
+      /* Full height */
+      height: 100%;
+
+      /* Center and scale the image nicely */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .bg2 {
+      /* The image used */
+      background-image: url("https://www.solidbackgrounds.com/images/950x350/950x350-baby-blue-solid-color-background.jpg");
+
+      /* Full height */
+      height: 8%;
+
+      /* Center and scale the image nicely */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    #map{
+      height:500px;
+      width: 50%;
+    }
+
+    section {
+      display: block;
+    }
+    .externaLnk {
+      position: absolute;
+      top: 300px;
+      left: 150px;
+      color: #fff;
+      font-size: 18px;
+      //  text-decoration: none;
+    }
+
   </style>
 
-<!-- <div><center><h1>AVOCARDIO</h1></center></div> -->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
+  <script>
+  var acc = document.getElementsByClassName("What's in your fridge?");
+  var i;
 
-
-.container {
-  position: relative;
-  text-align: center;
-  color: white;
-}
-
-.centered {
-  position: absolute;
-  top: 70%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-
-body, html {
-  height: 100%;
-  margin: 0;
-}
-
-.page-title {
-  position: absolute;
-  top: -130px;
-  //left: 600px;
-  font-size: 208px;
-
-
-}
-.bg {
-  /* The image used */
-  background-image: url("option5.pdf");
-
-  /* Full height */
-  height: 100%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
- .bg2 {
-  /* The image used */
-  background-image: url("https://www.solidbackgrounds.com/images/950x350/950x350-baby-blue-solid-color-background.jpg");
-
-  /* Full height */
-  height: 8%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-#map{
-  height:500px;
-  width: 50%;
-}
-
-section {
-  display: block;
-}
-.externaLnk {
-  position: absolute;
-  top: 300px;
-  left: 150px;
-  color: #fff;
-  font-size: 18px;
-//  text-decoration: none;
-}
-
-</style>
-
-<script>
-var acc = document.getElementsByClassName("What's in your fridge?");
-var i;
-
-for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var panel = this.nextElementSibling;
-    if (panel.style.maxHeight){
-      panel.style.maxHeight = null;
-    } else {
-      panel.style.maxHeight = panel.scrollHeight + "px";
-    }
-  });
-}
+  for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var panel = this.nextElementSibling;
+      if (panel.style.maxHeight){
+        panel.style.maxHeight = null;
+      } else {
+        panel.style.maxHeight = panel.scrollHeight + "px";
+      }
+    });
+  }
 </script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,
@@ -198,125 +198,125 @@ body {
 </head>
 <body>
   <!-- <div class="centered">About</div> -->
-<!-- <h8>HTML Image</h8> -->
-<style>
-body {
-  background-color: white;
-}
+  <!-- <h8>HTML Image</h8> -->
+  <style>
+  body {
+    background-color: white;
+  }
 </style>
 <center>
 
-<img src="avocardiologoplsworkthistime.png" alt="avocardio logo" width="350" height="70">
+  <img src="avocardiologoplsworkthistime.png" alt="avocardio logo" width="350" height="70">
 
 </center>
-  <!-- <h1 class="page-title">AVOCARDIO</h1> -->
- <div class="bg"></div>
- <!-- <a target="_blank" href="calculator.html" class="externaLnk"> About Us </a> -->
- <!-- <a target="_blank" href="#anchor2" class="externaLnk"> About Us </a> -->
+<!-- <h1 class="page-title">AVOCARDIO</h1> -->
+<div class="bg"></div>
+<!-- <a target="_blank" href="calculator.html" class="externaLnk"> About Us </a> -->
+<!-- <a target="_blank" href="#anchor2" class="externaLnk"> About Us </a> -->
 
-  <!-- <div class="bg2"> -->
+<!-- <div class="bg2"> -->
 <p>
   <!--<h3> Smoothie Generator </h3>-->
-   <link
-       rel="stylesheet"
-       href="accordian2.css">
+  <link
+  rel="stylesheet"
+  href="accordian2.css">
 
-   <meta name="viewport" content="width=device-width, initial-scale=1">
-   <style>
-   .accordions {
-     background-color: #9ACD32;
-     color: #444;
-     cursor: pointer;
-     padding: 18px;
-     width: 100%;
-     border: none;
-     text-align: left;
-     outline: none;
-     font-size: 15px;
-     transition: 0.9s;
-   }
-
-
-   .active, .accordion:hover {
-     background-color: #ccc;
-   }
-
-   .panel {
-     padding: 10px 18px;
-     display: none;
-     background-color: white;
-     overflow: hidden;
-   }
-   </style>
-
-   <body>
-
-     <h1><center>WHAT'S IN YOUR FRIDGE?</center></h1>
-     <button class="accordion">Fruits</button>
-     <div class="panel">
-       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-     </div>
-
-     <button class="accordion">Vegetables</button>
-     <div class="panel">
-       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-     </div>
-
-     <button class="accordion">Liquids</button>
-     <div class="panel">
-       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-     </div>
-
-   <script>
-   var acc = document.getElementsByClassName("accordion");
-   var i;
-
-   for (i = 0; i < acc.length; i++) {
-     acc[i].addEventListener("click", function() {
-       this.classList.toggle("active");
-       var panel = this.nextElementSibling;
-       if (panel.style.display === "block") {
-         panel.style.display = "none";
-       } else {
-         panel.style.display = "block";
-       }
-     });
-   }
-   </script>
-
-   <p><p><div><h1><b><center>PHYSICAL ACTIVITY</center></b></h1></div></p></p>
-   <!-- <p><h3><b><center>Excercise is an essential and impactful practice that can be fun and use creativity! But if your stuck on what to do, take a look at different ideas below!</b></p></h3></center> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+  .accordions {
+    background-color: #9ACD32;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.9s;
+  }
 
 
-  <div class="row">
-  <div class="column">
-    <h2><center>Cardio</center></h2>
-    <img src="https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" style="height:350px">
-    <p>Cardio is short for cardiovascular excersise and is an outstanding and efficient way to burn calories and so is usually practiced when one wants to loose weight. However repetitive movement over long durations of time can eventually lead to muscle and joint pains and so cardio should be practice with caution. There are many types of cardio, including running, swimming, biking and many more that each come with their own pros and cons.</p>
-  </div>
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
 
-  <div class="column">
-    <h2><center>Stretching</center></h2>
-      <img src="https://images.unsplash.com/photo-1551718753-9a1d488b523d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3149&q=80" style="height:350px">
-    <p>Stretching can come in many forms, but the most common is yoga. Often times stretching can improve flexibility and improve muscle pains and joint problems. Additionally,stretching can benifit ones mental health as well as physical health by allowing ones mind to remain in a meditative like state.</p>
-  </div>
+  .panel {
+    padding: 10px 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+  }
+  </style>
 
-  <div class="column">
-    <h2 id="anchor2"><center>Weights</center></h2>
-    <img src="https://images.unsplash.com/photo-1516481265257-97e5f4bc50d5?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" style="height:350px">
-    <p>Weights are a great way to tone up and strength your body. The overwhelming misconception that lifting weights will lead to a body building like physique, but in fact, it instead gives one a healthy toned appearence. Weights just like stretching can eventually lead to improving muscle and joint pain.</p>
-  </div>
-</div>
+  <body>
 
-<!-- <style>
-.column {
-  float: left;
-  width: 29%;
-  padding: 25px;
-}
+    <h1><center>WHAT'S IN YOUR FRIDGE?</center></h1>
+    <button class="accordion">Fruits</button>
+    <div class="panel">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
 
-/* Clear floats after the columns */
-.row:after {
+    <button class="accordion">Vegetables</button>
+    <div class="panel">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+
+    <button class="accordion">Liquids</button>
+    <div class="panel">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+
+    <script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+          panel.style.display = "none";
+        } else {
+          panel.style.display = "block";
+        }
+      });
+    }
+    </script>
+
+    <p><p><div><h1><b><center>PHYSICAL ACTIVITY</center></b></h1></div></p></p>
+    <!-- <p><h3><b><center>Excercise is an essential and impactful practice that can be fun and use creativity! But if your stuck on what to do, take a look at different ideas below!</b></p></h3></center> -->
+
+
+    <div class="row">
+      <div class="column">
+        <h2><center>Cardio</center></h2>
+        <img src="https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" style="height:350px">
+        <p>Cardio is short for cardiovascular excersise and is an outstanding and efficient way to burn calories and so is usually practiced when one wants to loose weight. However repetitive movement over long durations of time can eventually lead to muscle and joint pains and so cardio should be practice with caution. There are many types of cardio, including running, swimming, biking and many more that each come with their own pros and cons.</p>
+      </div>
+
+      <div class="column">
+        <h2><center>Stretching</center></h2>
+        <img src="https://images.unsplash.com/photo-1551718753-9a1d488b523d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3149&q=80" style="height:350px">
+        <p>Stretching can come in many forms, but the most common is yoga. Often times stretching can improve flexibility and improve muscle pains and joint problems. Additionally,stretching can benifit ones mental health as well as physical health by allowing ones mind to remain in a meditative like state.</p>
+      </div>
+
+      <div class="column">
+        <h2 id="anchor2"><center>Weights</center></h2>
+        <img src="https://images.unsplash.com/photo-1516481265257-97e5f4bc50d5?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" style="height:350px">
+        <p>Weights are a great way to tone up and strength your body. The overwhelming misconception that lifting weights will lead to a body building like physique, but in fact, it instead gives one a healthy toned appearence. Weights just like stretching can eventually lead to improving muscle and joint pain.</p>
+      </div>
+    </div>
+
+    <!-- <style>
+    .column {
+    float: left;
+    width: 29%;
+    padding: 25px;
+  }
+
+  /* Clear floats after the columns */
+  .row:after {
   content: "";
   display: table;
   clear: both;
@@ -328,185 +328,185 @@ body {
 
 
 <div class="row">
-<div class="column">
- <h2><center>Overview</center></h2>
- <img src="https://images.unsplash.com/photo-1498579397066-22750a3cb424?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" style="height:350px">
- <p>The United States spends more per capita on healthcare than any other country, yet sees startling numbers of people suffer with heart disease, diabetes and cancer. According to The China Study, a comprehensive study linking animal product consumption to chronic illness, dietary changes can make significant positive impacts such as enabling diabetic patients to go off their medication and reversing heart disease.  </p>
-</div>
+  <div class="column">
+    <h2><center>Overview</center></h2>
+    <img src="https://images.unsplash.com/photo-1498579397066-22750a3cb424?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" style="height:350px">
+    <p>The United States spends more per capita on healthcare than any other country, yet sees startling numbers of people suffer with heart disease, diabetes and cancer. According to The China Study, a comprehensive study linking animal product consumption to chronic illness, dietary changes can make significant positive impacts such as enabling diabetic patients to go off their medication and reversing heart disease.  </p>
+  </div>
 
-<div class="column">
- <h2><center>Physical</center></h2>
-   <img src="https://images.unsplash.com/photo-1559454473-66f2d4f5a725?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1926&q=80" style="height:350px">
- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
-</div>
+  <div class="column">
+    <h2><center>Physical</center></h2>
+    <img src="https://images.unsplash.com/photo-1559454473-66f2d4f5a725?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1926&q=80" style="height:350px">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+  </div>
 
-<div class="column">
- <h2 id="anchor2"><center>Mental</center></h2>
- <img src="https://images.unsplash.com/photo-1562498951-b20b8aa10536?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" style="height:350px">
- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
-</div>
+  <div class="column">
+    <h2 id="anchor2"><center>Mental</center></h2>
+    <img src="https://images.unsplash.com/photo-1562498951-b20b8aa10536?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" style="height:350px">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+  </div>
 </div>
 
 <style>
 .column {
-float: left;
-width: 33.3%;
-padding: 30px;
+  float: left;
+  width: 33.3%;
+  padding: 30px;
 }
 
 /* Clear floats after the columns */
 .row:after {
-content: "";
-display: table;
-clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
 </style>
 
 <!-- <h2>Responsive Column Cards</h2>
 <p>Resize the browser window to see the effect.</p> -->
 
-  <div class="column4">
-    <div class="card">
-      <h3>Fun Bay Area activities to boost mental or physical health</h3>
-      <p>Palace of Fine Arts</p>
-      <p>Walk around one of San Fransisco's art galleries.</p>
-      <p>SF Moma</p>
-       <p>A modern art museum in San Fransisco.</p>
-      <p>Golden Gate Park</p>
-      <p>Enjoy a tour of the flower exhibits, a boat ride on the lake, or a day in the tea garden.</p>
-      <p>Palo Alto Art Center</p>
-      <p>Attend seasonal exhbits</p>
-       <p>Yoga Source (Palo Alto)</p>
-      <p>Explore yoga through a variety of classes catered toward a wide range of abilities.</p>
-      <p>SoulCycle Santana Row</p>
-      <p>Upbeat cycling classes.</p>
-    </div>
+<div class="column4">
+  <div class="card">
+    <h3>Fun Bay Area activities to boost mental or physical health</h3>
+    <p>Palace of Fine Arts</p>
+    <p>Walk around one of San Fransisco's art galleries.</p>
+    <p>SF Moma</p>
+    <p>A modern art museum in San Fransisco.</p>
+    <p>Golden Gate Park</p>
+    <p>Enjoy a tour of the flower exhibits, a boat ride on the lake, or a day in the tea garden.</p>
+    <p>Palo Alto Art Center</p>
+    <p>Attend seasonal exhbits</p>
+    <p>Yoga Source (Palo Alto)</p>
+    <p>Explore yoga through a variety of classes catered toward a wide range of abilities.</p>
+    <p>SoulCycle Santana Row</p>
+    <p>Upbeat cycling classes.</p>
   </div>
+</div>
 </div>
 
 <!-- ============================================================== -->
- <!-- <h2><center>MAP</center></h2> -->
- <div id="map"></div>
- <script>
-   function initMap(){
-     // map options
-     var options = {
-       zoom:9,
-       center: {lat:37.468319, lng:-122.143936}
-     }
-     // New map
-     var map = new google.maps.Map(document.getElementById('map'), options);
+<!-- <h2><center>MAP</center></h2> -->
+<div id="map"></div>
+<script>
+function initMap(){
+  // map options
+  var options = {
+    zoom:9,
+    center: {lat:37.468319, lng:-122.143936}
+  }
+  // New map
+  var map = new google.maps.Map(document.getElementById('map'), options);
 
-     // Array
-     var markers = [
-       {
-         coords: {lat:37.443424, lng:-122.161741},
-         content:'<h4>YogaSource Palo Alto</h4>'
-       },
-       {
-         coords: {lat:37.234002, lng:-121.964377},
-         content:'<h4>YogaSource Los Gatos</h4>'
-       },
-       {
-         coords: {lat:37.785884, lng:-122.401051},
-         content:'<h4>SF MOMA</h4>'
-       },
-       {
-         coords: {lat:37.444407, lng:-122.138925},
-         content:'<h4>Palo Alto Art Center</h4>'
-       },
-       // more
-       {
-         coords: {lat:37.467118, lng: -122.446934},
-         content:'<h4>Half Moon Bay Beach</h4>'
-       },
-       {
-         coords: {lat:37.769204, lng:-122.486199},
-         content:'<h4>Golden Gate Park</h4>'
-       },
-       {
-         coords: {lat:37.802077, lng: -122.448315},
-         content:'<h4>Palace of Fine Art</h4>'
-       },
-       {
-         coords: {lat:37.478571, lng: -122.291691},
-         content:'<h4>Pulgas Ridge Preserve</h4>'
-       }
+  // Array
+  var markers = [
+    {
+      coords: {lat:37.443424, lng:-122.161741},
+      content:'<h4>YogaSource Palo Alto</h4>'
+    },
+    {
+      coords: {lat:37.234002, lng:-121.964377},
+      content:'<h4>YogaSource Los Gatos</h4>'
+    },
+    {
+      coords: {lat:37.785884, lng:-122.401051},
+      content:'<h4>SF MOMA</h4>'
+    },
+    {
+      coords: {lat:37.444407, lng:-122.138925},
+      content:'<h4>Palo Alto Art Center</h4>'
+    },
+    // more
+    {
+      coords: {lat:37.467118, lng: -122.446934},
+      content:'<h4>Half Moon Bay Beach</h4>'
+    },
+    {
+      coords: {lat:37.769204, lng:-122.486199},
+      content:'<h4>Golden Gate Park</h4>'
+    },
+    {
+      coords: {lat:37.802077, lng: -122.448315},
+      content:'<h4>Palace of Fine Art</h4>'
+    },
+    {
+      coords: {lat:37.478571, lng: -122.291691},
+      content:'<h4>Pulgas Ridge Preserve</h4>'
+    }
 
-     ];
+  ];
 
-     // :oop through markers
-     for(var i = 0; i < markers.length; i++){
-       addMarker(markers[i]);
-       addMarker({
-         coords: {lat:37.443424, lng:-122.161741},
-         content:'<h4>YogaSource Palo Alto</h4>'
-       });
-     }
-     addMarker({
-       coords: {lat:37.443424, lng:-122.161741},
-       content:'<h4>YogaSource Palo Alto</h4>'
-     });
-     // addMarker({
-     //   coords: {lat:37.234002, lng:-121.964377},
-     //   content:'<h4>YogaSource Los Gatos</h4>'
-     // });
-     // addMarker({
-     //   coords: {lat:37.785884, lng:-122.401051},
-     //   content:'<h4>SF MOMA</h4>'
-     // });
-     // addMarker({
-     //   coords: {lat:37.444407, lng:-122.138925},
-     //   content:'<h4>Palo Alto Art Center</h4>'
-     // });
-     // Add Marker function
-     function addMarker(props){
-       var marker = new google.maps.Marker({
-         position:props.coords,
-         map:map
-       });
-// check content
-       if(props.content){
-         var infoWindow = new google.maps.InfoWindow({
-           content:props.content
-         });
+  // :oop through markers
+  for(var i = 0; i < markers.length; i++){
+    addMarker(markers[i]);
+    addMarker({
+      coords: {lat:37.443424, lng:-122.161741},
+      content:'<h4>YogaSource Palo Alto</h4>'
+    });
+  }
+  addMarker({
+    coords: {lat:37.443424, lng:-122.161741},
+    content:'<h4>YogaSource Palo Alto</h4>'
+  });
+  // addMarker({
+  //   coords: {lat:37.234002, lng:-121.964377},
+  //   content:'<h4>YogaSource Los Gatos</h4>'
+  // });
+  // addMarker({
+  //   coords: {lat:37.785884, lng:-122.401051},
+  //   content:'<h4>SF MOMA</h4>'
+  // });
+  // addMarker({
+  //   coords: {lat:37.444407, lng:-122.138925},
+  //   content:'<h4>Palo Alto Art Center</h4>'
+  // });
+  // Add Marker function
+  function addMarker(props){
+    var marker = new google.maps.Marker({
+      position:props.coords,
+      map:map
+    });
+    // check content
+    if(props.content){
+      var infoWindow = new google.maps.InfoWindow({
+        content:props.content
+      });
 
-         marker.addListener('click', function(){
-           infoWindow.open(map, marker);
-         });
-       }
-     }
-   }
- </script>
- <script async defer
- src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhuSNCMKXq90q3pQWNk7IcvlTQTF9qiVY&callback=initMap">
- </script>
- <!-- ==================================================================== -->
+      marker.addListener('click', function(){
+        infoWindow.open(map, marker);
+      });
+    }
+  }
+}
+</script>
+<script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhuSNCMKXq90q3pQWNk7IcvlTQTF9qiVY&callback=initMap">
+</script>
+<!-- ==================================================================== -->
 
-   <h1><center>QUICK HEALTH TIPS<center></h1>
-     <h3> <center> Follow these tips to help you on your fitness journey.<center></h2>
+<h1><center>QUICK HEALTH TIPS<center></h1>
+  <h3> <center> Follow these tips to help you on your fitness journey.<center></h2>
 
-   <button class="accordion">Physical+</button>
-   </div>
-   <div class="panel">
-     <p><font color= "black"><p> <h3> - Follow the workouts you previously constructed regularly and in a routine for the best results. </h3></font></p>
-     <p><font color="black"><h3> - Stay Hydrated! To calculate how much water you need to consume to stay hydrated and healthy at your own rate. </h3></font></p>
-     <p><font color="black"><h3> CLick below to check out how much water you should be taking in per day! </h3></font></p>
-      <button onclick="window.location.href = 'https://international.camelbak.com/en/hydrated/hydration-calculator';">HYDRATION CALCULATOR</button>
+    <button class="accordion">Physical+</button>
+  </div>
+  <div class="panel">
+    <p><font color= "black"><p> <h3> - Follow the workouts you previously constructed regularly and in a routine for the best results. </h3></font></p>
+    <p><font color="black"><h3> - Stay Hydrated! To calculate how much water you need to consume to stay hydrated and healthy at your own rate. </h3></font></p>
+    <p><font color="black"><h3> CLick below to check out how much water you should be taking in per day! </h3></font></p>
+    <button onclick="window.location.href = 'https://international.camelbak.com/en/hydrated/hydration-calculator';">HYDRATION CALCULATOR</button>
     <p><font color= "black"><h3> - Eat more vegetables and cut back on sugars (unless they are fruit) to help your workouts to take full effect. Sugars make your body unable to reach its fruitful potential. See what I did there:)</h3></font>
       <p><font color="black"><h3> -If workouts are too intensive for you as you start out, try replacing them with stretches you enjoy instead. </h3></font></p>
       <p><font color= "black"><h3> - Get into a comfortable sleep routine to help your body fall into a regular circadian rhythm.</h3></font></p>
-          <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2188&q=80"style="width:320px;height:210px;">
-          <img src="https://images.unsplash.com/photo-1554047331-29fb92f68b58?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1839&q=80"style="width:320px;height:210px;">
-          <img src="https://images.unsplash.com/photo-1494390248081-4e521a5940db?ixlib=rb-1.2.1&auto=format&fit=crop&w=1895&q=80"style="width:320px;height:210px;">
-          <img src="https://images.unsplash.com/photo-1527634311077-9943f7df34e1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2110&q=80"style="width:320px;height:210px;">
-          <img src="https://images.unsplash.com/photo-1557127275-f8b5ba93e24e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80"style="width:320px;height:210px;">
+      <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2188&q=80"style="width:320px;height:210px;">
+      <img src="https://images.unsplash.com/photo-1554047331-29fb92f68b58?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1839&q=80"style="width:320px;height:210px;">
+      <img src="https://images.unsplash.com/photo-1494390248081-4e521a5940db?ixlib=rb-1.2.1&auto=format&fit=crop&w=1895&q=80"style="width:320px;height:210px;">
+      <img src="https://images.unsplash.com/photo-1527634311077-9943f7df34e1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2110&q=80"style="width:320px;height:210px;">
+      <img src="https://images.unsplash.com/photo-1557127275-f8b5ba93e24e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80"style="width:320px;height:210px;">
 
-</div>
+    </div>
 
-  <button class="accordion">Mental+</button>
-   <div class="panel">
-     <p> <font color= "black"><h3> - To boost brain power, eat a piece of dark chocolate or two for a fun way of improving your diet! </h3></font></p>
+    <button class="accordion">Mental+</button>
+    <div class="panel">
+      <p> <font color= "black"><h3> - To boost brain power, eat a piece of dark chocolate or two for a fun way of improving your diet! </h3></font></p>
       <p> <font color= "black"><h3> - If you are feeling extra stressed, stop what you are doing, print out some adult coloring pages and just color to calm yourself down and distract your mind. </h3></font></p>
       <p> <font color= "black"><h3> - Looking at huge goals can be overwhelming. Instead break down these tasks into jobs that you are capable of completing a day.</h3></font></p>
       <p> <font color= "black"><h3> - If you have trouble waking up super early, try to instead wake up only 10-15 minutes earlier to increase your energy and productivity for the day! </h3></font></p>
@@ -517,48 +517,42 @@ clear: both;
       <img src="https://images.unsplash.com/photo-1508717334315-37b159f24d04?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80"style="width:320px;height:210px;">
       <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80"style="width:320px;height:210px;">
 
-   </div>
+    </div>
 
-   <script>
-   var acc = document.getElementsByClassName("accordion");
-   var i;
+    <script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
 
-   for (i = 0; i < acc.length; i++) {
-     acc[i].addEventListener("click", function() {
-       this.classList.toggle("active");
-       var panel = this.nextElementSibling;
-       if (panel.style.display === "block") {
-         panel.style.display = "none";
-       } else {
-         panel.style.display = "block";
-       }
-     });
-   }
-   </script>
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+          panel.style.display = "none";
+        } else {
+          panel.style.display = "block";
+        }
+      });
+    }
+    </script>
+  </body>
+  </html>
 
-
-
-
-
-
-   </body>
-   </html>
-
- </div>
+</div>
 
 <p><h1><center>JUICY JAMS</center><h1><p>
-<p><h3><center>Listen to some of these top songs while working out!</center><h3><p>
-<center><iframe src="https://open.spotify.com/embed/track/0TK2YIli7K1leLovkQiNik" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-<iframe src="https://open.spotify.com/embed/track/6vBdBCoOhKHiYDDOcorfNo" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-<iframe src="https://open.spotify.com/embed/track/4evmHXcjt3bTUHD1cvny97" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-<iframe src="https://open.spotify.com/embed/track/3yNZ5r3LKfdmjoS3gkhUCT" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-<iframe src="https://open.spotify.com/embed/track/3Y7MHz19qCg1Pkxridtu1k" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-<iframe src="https://open.spotify.com/embed/track/07rmSXN6vNoquX1AsWd9pP" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-<iframe src="https://open.spotify.com/embed/track/6fTt0CH2t0mdeB2N9XFG5r" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-<iframe src="https://open.spotify.com/embed/track/1f38Gx6xQz6r4H1jGVNBJo" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-<iframe src="https://open.spotify.com/embed/track/0B3FovCVaGKS5w1FTidEUP" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-<iframe src="https://open.spotify.com/embed/track/6CcJMwBtXByIz4zQLzFkKc" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></center>
-<div><center><h1>ABOUT US</h1></center></div>
-<div><center><h4>Write useless trash about us here</h4></center></div>
-</body>
-</html>
+  <p><h3><center>Listen to some of these top songs while working out!</center><h3><p>
+    <center><iframe src="https://open.spotify.com/embed/track/0TK2YIli7K1leLovkQiNik" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+      <iframe src="https://open.spotify.com/embed/track/6vBdBCoOhKHiYDDOcorfNo" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+      <iframe src="https://open.spotify.com/embed/track/4evmHXcjt3bTUHD1cvny97" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+      <iframe src="https://open.spotify.com/embed/track/3yNZ5r3LKfdmjoS3gkhUCT" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+      <iframe src="https://open.spotify.com/embed/track/3Y7MHz19qCg1Pkxridtu1k" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+      <iframe src="https://open.spotify.com/embed/track/07rmSXN6vNoquX1AsWd9pP" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+      <iframe src="https://open.spotify.com/embed/track/6fTt0CH2t0mdeB2N9XFG5r" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+      <iframe src="https://open.spotify.com/embed/track/1f38Gx6xQz6r4H1jGVNBJo" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+      <iframe src="https://open.spotify.com/embed/track/0B3FovCVaGKS5w1FTidEUP" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+      <iframe src="https://open.spotify.com/embed/track/6CcJMwBtXByIz4zQLzFkKc" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></center>
+      <div><center><h1>ABOUT US</h1></center></div>
+      <div><center><h4>Write useless trash about us here</h4></center></div>
+    </body>
+    </html>
