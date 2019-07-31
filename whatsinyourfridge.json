@@ -1,0 +1,351 @@
+{
+	"recipe": [
+		{
+			"name": "Love Lift Smoothie",
+			"id": "grand-marnier-coffee-ice-cream",
+			"description": "Easy",
+			"tag": [
+				"smoothie"
+			],
+			"ingredient": [
+				{
+					"amount": "1",
+					"unit": "cups",
+					"name": "beetroot"
+				},
+				{
+					"amount": "1",
+					"unit": "cup",
+					"name": "watermelon"
+				},
+				{
+					"amount": "1",
+					"name": "red grapes"
+				},
+				{
+					"amount": "1",
+					"unit": "cup",
+					"name": "pomegranate"
+				},
+				{
+					"name": "Cocoa nibs for garnish",
+					"preparation": "(Optional)"
+				}
+			],
+			"ingredientGroup": [
+				{
+					"ingredient": []
+				}
+			],
+			"step": [
+			],
+			"notes": "- We use (and love) [Sukrin Icing/Melis](https://www.amazon.com/Sukrin-Icing-Melis-Powdered-Substitute/dp/B00U7FCNG2/?tag=leaverou-20) for a healthy icing sugar substitute, it tastes exactly like the real thing and doesn't contain any artificial sweeteners, so it's keto-friendly (it's stevia & erythritol).\n- You can use 2 tbsp instant coffee if you don't have espresso, which is what the original recipe this one is forked from uses!\n- This will produce a delicate Grand Marnier flavor and the coffee will be fairly prominent. Adjust quantities accordingly if you want a stronger Grand Marnier flavor or less of a coffee flavor\n- If you're uncomfortable with raw eggs, you can buy pasteurized eggs or pasteurize them yourself by immersing the eggs in a 57.2C (135F) water bath for 75 minutes using a sous-vide (which is what we did).\n- Note that the amount of mixture this produces may be too much for your ice cream machine. We use a [Cuisinart ICE-21R](https://www.amazon.com/gp/product/B0041A3KPC/?tag=leaverou-20) and we had to do it in 2 batches. But the mixture lasts well in the fridge, we did the second batch 3 days later and it was fine!",
+			"forked": "[Coffee Grand Marnier Ice Cream](http://www.ronniefein.com/blog/coffee-grand-marnier-ice-cream)",
+			"image": "https://forkgasm.com/images/grand-marnier-ice-cream.jpg"
+		},
+    {
+			"name": "Turbo Chaege Super Blend",
+			"id": "grand-marnier-coffee-ice-cream",
+			"description": "easy",
+			"tag": [
+				"smoothie"
+			],
+			"ingredient": [
+				{
+					"amount": "1/2",
+					"unit": "cup",
+					"name": "apple"
+				},
+				{
+					"amount": "1",
+					"unit": "cup",
+					"name": "pineapple"
+				},
+				{
+					"amount": "1/2",
+          "unit": "cup",
+					"name": "cucumber"
+				},
+        {
+          "amount": "1/4",
+          "unit": "cup",
+          "name": "avocado"
+        },
+        {
+					"amount": "1/2",
+          "unit": "cup",
+					"name": "spinach"
+				},
+        {
+					"amount": "1/4",
+          "unit": "cup",
+					"name": "coconut water"
+				},
+				{
+					"name": "Cocoa nibs for garnish",
+					"preparation": "(Optional)"
+				}
+			],
+			"ingredientGroup": [
+				{
+					"ingredient": []
+				}
+			],
+			"step": [
+			],
+			"notes": "- We use (and love) [Sukrin Icing/Melis](https://www.amazon.com/Sukrin-Icing-Melis-Powdered-Substitute/dp/B00U7FCNG2/?tag=leaverou-20) for a healthy icing sugar substitute, it tastes exactly like the real thing and doesn't contain any artificial sweeteners, so it's keto-friendly (it's stevia & erythritol).\n- You can use 2 tbsp instant coffee if you don't have espresso, which is what the original recipe this one is forked from uses!\n- This will produce a delicate Grand Marnier flavor and the coffee will be fairly prominent. Adjust quantities accordingly if you want a stronger Grand Marnier flavor or less of a coffee flavor\n- If you're uncomfortable with raw eggs, you can buy pasteurized eggs or pasteurize them yourself by immersing the eggs in a 57.2C (135F) water bath for 75 minutes using a sous-vide (which is what we did).\n- Note that the amount of mixture this produces may be too much for your ice cream machine. We use a [Cuisinart ICE-21R](https://www.amazon.com/gp/product/B0041A3KPC/?tag=leaverou-20) and we had to do it in 2 batches. But the mixture lasts well in the fridge, we did the second batch 3 days later and it was fine!",
+			"forked": "[Coffee Grand Marnier Ice Cream](http://www.ronniefein.com/blog/coffee-grand-marnier-ice-cream)",
+			"image": "https://forkgasm.com/images/grand-marnier-ice-cream.jpg"
+		},
+    {
+			"name": "Banana Milk",
+			"id": "grand-marnier-coffee-ice-cream",
+			"description": "easy",
+			"tag": [
+				"smoothie"
+			],
+			"ingredient": [
+				{
+					"amount": "1",
+					"unit": "cup",
+					"name": "almond milk"
+				},
+				{
+					"amount": "1",
+					"unit": "cup",
+					"name": "banana"
+				},
+				{
+					"name": "Cocoa nibs for garnish",
+					"preparation": "(Optional)"
+				}
+			],
+			"ingredientGroup": [
+				{
+					"ingredient": []
+				}
+			],
+			"step": [
+			],
+			"notes": "- We use (and love) [Sukrin Icing/Melis](https://www.amazon.com/Sukrin-Icing-Melis-Powdered-Substitute/dp/B00U7FCNG2/?tag=leaverou-20) for a healthy icing sugar substitute, it tastes exactly like the real thing and doesn't contain any artificial sweeteners, so it's keto-friendly (it's stevia & erythritol).\n- You can use 2 tbsp instant coffee if you don't have espresso, which is what the original recipe this one is forked from uses!\n- This will produce a delicate Grand Marnier flavor and the coffee will be fairly prominent. Adjust quantities accordingly if you want a stronger Grand Marnier flavor or less of a coffee flavor\n- If you're uncomfortable with raw eggs, you can buy pasteurized eggs or pasteurize them yourself by immersing the eggs in a 57.2C (135F) water bath for 75 minutes using a sous-vide (which is what we did).\n- Note that the amount of mixture this produces may be too much for your ice cream machine. We use a [Cuisinart ICE-21R](https://www.amazon.com/gp/product/B0041A3KPC/?tag=leaverou-20) and we had to do it in 2 batches. But the mixture lasts well in the fridge, we did the second batch 3 days later and it was fine!",
+			"forked": "[Coffee Grand Marnier Ice Cream](http://www.ronniefein.com/blog/coffee-grand-marnier-ice-cream)",
+			"image": "https://forkgasm.com/images/grand-marnier-ice-cream.jpg"
+		},
+    {
+			"name": "Berry Banana Crunch",
+			"id": "grand-marnier-coffee-ice-cream",
+			"description": "easy",
+			"tag": [
+				"smoothie"
+			],
+			"ingredient": [
+				{
+					"amount": "1",
+					"unit": "cup",
+					"name": "apple"
+				},
+				{
+					"amount": "1",
+					"unit": "cup",
+					"name": "blueberries"
+				},
+				{
+					"amount": "1",
+          "unit": "cup",
+					"name": "strawberries"
+				},
+        {
+          "amount": "1/2",
+          "unit": "cup",
+          "name": "banana"
+        },
+        {
+					"amount": "1",
+          "unit": "cup",
+					"name": "ice"
+				},
+        {
+					"amount": "1/4",
+          "unit": "cup",
+					"name": "yogurt"
+				},
+				{
+					"name": "Cocoa nibs for garnish",
+					"preparation": "(Optional)"
+				}
+			],
+			"ingredientGroup": [
+				{
+					"ingredient": []
+				}
+			],
+			"step": [
+			],
+			"notes": "- We use (and love) [Sukrin Icing/Melis](https://www.amazon.com/Sukrin-Icing-Melis-Powdered-Substitute/dp/B00U7FCNG2/?tag=leaverou-20) for a healthy icing sugar substitute, it tastes exactly like the real thing and doesn't contain any artificial sweeteners, so it's keto-friendly (it's stevia & erythritol).\n- You can use 2 tbsp instant coffee if you don't have espresso, which is what the original recipe this one is forked from uses!\n- This will produce a delicate Grand Marnier flavor and the coffee will be fairly prominent. Adjust quantities accordingly if you want a stronger Grand Marnier flavor or less of a coffee flavor\n- If you're uncomfortable with raw eggs, you can buy pasteurized eggs or pasteurize them yourself by immersing the eggs in a 57.2C (135F) water bath for 75 minutes using a sous-vide (which is what we did).\n- Note that the amount of mixture this produces may be too much for your ice cream machine. We use a [Cuisinart ICE-21R](https://www.amazon.com/gp/product/B0041A3KPC/?tag=leaverou-20) and we had to do it in 2 batches. But the mixture lasts well in the fridge, we did the second batch 3 days later and it was fine!",
+			"forked": "[Coffee Grand Marnier Ice Cream](http://www.ronniefein.com/blog/coffee-grand-marnier-ice-cream)",
+			"image": "https://forkgasm.com/images/grand-marnier-ice-cream.jpg"
+		},
+    {
+      "name": "Tumeric Temptation",
+      "id": "grand-marnier-coffee-ice-cream",
+      "description": "easy",
+      "tag": [
+        "smoothie"
+      ],
+      "ingredient": [
+        {
+          "amount": "1",
+          "unit": "tablespoon",
+          "name": "apple"
+        },
+        {
+          "amount": "1",
+          "unit": "cup",
+          "name": "apple"
+        },
+        {
+          "amount": "1/2",
+          "unit": "cup",
+          "name": "cucumber"
+        },
+        {
+          "amount": "1",
+          "unit": "cup",
+          "name": "pear"
+        },
+        {
+          "amount": "1",
+          "unit": "cup",
+          "name": "orange"
+        },
+        {
+          "amount": "1",
+          "unit": "cup",
+          "name": "ice"
+        },
+        {
+          "name": "Cocoa nibs for garnish",
+          "preparation": "(Optional)"
+        }
+      ],
+      "ingredientGroup": [
+        {
+          "ingredient": []
+        }
+      ],
+      "step": [
+      ],
+      "notes": "- We use (and love) [Sukrin Icing/Melis](https://www.amazon.com/Sukrin-Icing-Melis-Powdered-Substitute/dp/B00U7FCNG2/?tag=leaverou-20) for a healthy icing sugar substitute, it tastes exactly like the real thing and doesn't contain any artificial sweeteners, so it's keto-friendly (it's stevia & erythritol).\n- You can use 2 tbsp instant coffee if you don't have espresso, which is what the original recipe this one is forked from uses!\n- This will produce a delicate Grand Marnier flavor and the coffee will be fairly prominent. Adjust quantities accordingly if you want a stronger Grand Marnier flavor or less of a coffee flavor\n- If you're uncomfortable with raw eggs, you can buy pasteurized eggs or pasteurize them yourself by immersing the eggs in a 57.2C (135F) water bath for 75 minutes using a sous-vide (which is what we did).\n- Note that the amount of mixture this produces may be too much for your ice cream machine. We use a [Cuisinart ICE-21R](https://www.amazon.com/gp/product/B0041A3KPC/?tag=leaverou-20) and we had to do it in 2 batches. But the mixture lasts well in the fridge, we did the second batch 3 days later and it was fine!",
+      "forked": "[Coffee Grand Marnier Ice Cream](http://www.ronniefein.com/blog/coffee-grand-marnier-ice-cream)",
+      "image": "https://forkgasm.com/images/grand-marnier-ice-cream.jpg"
+    },
+    {
+      "name": "Turbo Chaege Super Blend",
+      "id": "grand-marnier-coffee-ice-cream",
+      "description": "easy",
+      "tag": [
+        "smoothie"
+      ],
+      "ingredient": [
+        {
+          "amount": "1/2",
+          "unit": "cup",
+          "name": "apple"
+        },
+        {
+          "amount": "1",
+          "unit": "cup",
+          "name": "pineapple"
+        },
+        {
+          "amount": "1/2",
+          "unit": "cup",
+          "name": "cucumber"
+        },
+        {
+          "amount": "1/4",
+          "unit": "cup",
+          "name": "avocado"
+        },
+        {
+          "amount": "1/2",
+          "unit": "cup",
+          "name": "spinach"
+        },
+        {
+          "amount": "1/4",
+          "unit": "cup",
+          "name": "coconut water"
+        },
+        {
+          "name": "Cocoa nibs for garnish",
+          "preparation": "(Optional)"
+        }
+      ],
+      "ingredientGroup": [
+        {
+          "ingredient": []
+        }
+      ],
+      "step": [
+      ],
+      "notes": "- We use (and love) [Sukrin Icing/Melis](https://www.amazon.com/Sukrin-Icing-Melis-Powdered-Substitute/dp/B00U7FCNG2/?tag=leaverou-20) for a healthy icing sugar substitute, it tastes exactly like the real thing and doesn't contain any artificial sweeteners, so it's keto-friendly (it's stevia & erythritol).\n- You can use 2 tbsp instant coffee if you don't have espresso, which is what the original recipe this one is forked from uses!\n- This will produce a delicate Grand Marnier flavor and the coffee will be fairly prominent. Adjust quantities accordingly if you want a stronger Grand Marnier flavor or less of a coffee flavor\n- If you're uncomfortable with raw eggs, you can buy pasteurized eggs or pasteurize them yourself by immersing the eggs in a 57.2C (135F) water bath for 75 minutes using a sous-vide (which is what we did).\n- Note that the amount of mixture this produces may be too much for your ice cream machine. We use a [Cuisinart ICE-21R](https://www.amazon.com/gp/product/B0041A3KPC/?tag=leaverou-20) and we had to do it in 2 batches. But the mixture lasts well in the fridge, we did the second batch 3 days later and it was fine!",
+      "forked": "[Coffee Grand Marnier Ice Cream](http://www.ronniefein.com/blog/coffee-grand-marnier-ice-cream)",
+      "image": "https://forkgasm.com/images/grand-marnier-ice-cream.jpg"
+    },
+    {
+      "name": "Peachy Keen",
+      "id": "grand-marnier-coffee-ice-cream",
+      "description": "easy",
+      "tag": [
+        "smoothie"
+      ],
+      "ingredient": [
+        {
+          "amount": "1/2",
+          "unit": "cup",
+          "name": "yogurt"
+        },
+        {
+          "amount": "2",
+          "unit": "cup",
+          "name": "peach"
+        },
+        {
+          "amount": "3/4",
+          "unit": "cup",
+          "name": "coconut milk"
+        },
+        {
+          "amount": "1/4",
+          "unit": "teaspoon",
+          "name": "cinnamon"
+        },
+        {
+          "amount": "1/2",
+          "unit": "tablespoon",
+          "name": "agave"
+        },
+        {
+          "amount": "1/4",
+          "unit": "cup",
+          "name": "yam"
+        },
+        {
+          "name": "Cocoa nibs for garnish",
+          "preparation": "(Optional)"
+        }
+      ],
+      "ingredientGroup": [
+        {
+          "ingredient": []
+        }
+      ],
+      "step": [
+      ],
+      "notes": "- We use (and love) [Sukrin Icing/Melis](https://www.amazon.com/Sukrin-Icing-Melis-Powdered-Substitute/dp/B00U7FCNG2/?tag=leaverou-20) for a healthy icing sugar substitute, it tastes exactly like the real thing and doesn't contain any artificial sweeteners, so it's keto-friendly (it's stevia & erythritol).\n- You can use 2 tbsp instant coffee if you don't have espresso, which is what the original recipe this one is forked from uses!\n- This will produce a delicate Grand Marnier flavor and the coffee will be fairly prominent. Adjust quantities accordingly if you want a stronger Grand Marnier flavor or less of a coffee flavor\n- If you're uncomfortable with raw eggs, you can buy pasteurized eggs or pasteurize them yourself by immersing the eggs in a 57.2C (135F) water bath for 75 minutes using a sous-vide (which is what we did).\n- Note that the amount of mixture this produces may be too much for your ice cream machine. We use a [Cuisinart ICE-21R](https://www.amazon.com/gp/product/B0041A3KPC/?tag=leaverou-20) and we had to do it in 2 batches. But the mixture lasts well in the fridge, we did the second batch 3 days later and it was fine!",
+      "forked": "[Coffee Grand Marnier Ice Cream](http://www.ronniefein.com/blog/coffee-grand-marnier-ice-cream)",
+      "image": "https://forkgasm.com/images/grand-marnier-ice-cream.jpg"
+    }
+					]
+				}

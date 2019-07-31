@@ -26,7 +26,7 @@
       transform: translate(-50%, -50%);
       }}
     </style>
-
+ <script src="fridge.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
     .accordion {
@@ -51,6 +51,20 @@
       display: none;
       background-color: light green ;
       overflow: hidden;
+    }
+
+    .button {
+      background-color: white; /* Green */
+      border: 4px solid #5F9EA0;
+      color: black;
+      padding: 20px;
+      width: 140px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 2px 8px;
+      cursor: pointer;
     }
     </style>
 
@@ -77,14 +91,18 @@
       height: 100%;
       margin: 0;
     }
+    th, td {
+      width: 150px;
+      text-align: center;
+      /* border:1px solid black; */
+      padding: 2px
+    }
 
     .page-title {
       position: absolute;
       top: -130px;
       //left: 600px;
       font-size: 208px;
-
-
     }
     .bg {
       /* The image used */
@@ -251,20 +269,45 @@ body {
   <body>
 
     <h1><center>WHAT'S IN YOUR FRIDGE?</center></h1>
-    <button class="accordion">Fruits</button>
-    <div class="panel">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    </div>
+    <table style="width:100%;">
+<tr>
+ <td>
 
-    <button class="accordion">Vegetables</button>
-    <div class="panel">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    </div>
+   <table style="width:100%">
+     <tr>
+       <th>Fruits</th>
+       <th>Fruits</th>
+       <th>AVOCADO</th>
+       <th>Vegetables</th>
+     </tr>
+     <tr>
+       <td><button class="button" onClick="user('apple')">apple/pear</button></td>
+       <td><button class="button " onClick="user('berries')">berries</button></td>
+       <td><button class="button " onClick="user('avocado')">avocado</button></td>
+       <td><button class="button " onClick="user('root')">leafy greens</button></td>
+     </tr>
+     <tr>
+       <td><button class="button " onClick="user('tropical_exotic')">tropical/exotic</button></td>
+       <td><button class="button " onClick="user('citrus')">citrus</button></td>
+       <td><button class="button " onClick="user('avocado')">avocado</button></td>
+       <td><button class="button" onClick="user('leafy_greens')">root</button></td>
+     </tr>
+     <tr>
+       <td><button class="button" onClick="user('stone_fruits')">stone fruits</button></td>
+       <td><button class="button" onClick="user('melon')">melons</button></td>
+       <td><button class="button" onClick="user('avocado')">avocado</button></td>
+       <td><button class="button" onClick="user('marrow')">marrow</button></td>
+     </tr>
+   </table>
 
-    <button class="accordion">Liquids</button>
-    <div class="panel">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    </div>
+ </td>
+<td>
+   <p>Recipes</p>
+   <p id="articleSource"></p>
+</td>
+
+</tr>
+</table>
 
     <script>
     var acc = document.getElementsByClassName("accordion");
